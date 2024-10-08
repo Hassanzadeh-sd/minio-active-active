@@ -5,7 +5,7 @@ MinIO is a High Performance Object Storage released under GNU Affero General Pub
 This README provides quickstart instructions on running MinIO on two node container-based installations.
 
 OverView:
-![Alt text](assets/MinIO.drawio.png)
+![Minio Replication Over view](assets/MinIO.drawio.png)
 
 ## Container Installation
 #### files structures :
@@ -65,7 +65,7 @@ finally you need yo config nginx behind of nginx server you need to use  this co
 
 ## nginx config
 ```bash
-pstream minio_s3 {
+upstream minio_s3 {
    least_conn;
    server 192.168.1.1:9000;
    server 192.168.1.2:9000;
