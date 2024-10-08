@@ -4,6 +4,9 @@ MinIO is a High Performance Object Storage released under GNU Affero General Pub
 
 This README provides quickstart instructions on running MinIO on two node container-based installations.
 
+OverView:
+![Alt text](assets/MinIO.drawio.png)
+
 ## Container Installation
 #### files structures :
 ```
@@ -47,7 +50,7 @@ MINIO_ROOT_PASSWORD=<password>
 
 after instalation you need to open this url: `minio-ip:9001` and set replication on theleft menu as you see in the bottom image:
 
-![Alt text](replication.png)
+![MinIo Replication](assets/replication.png)
 
 ### replication :
 you only need to add one replica and system add another replica automaticaly.
