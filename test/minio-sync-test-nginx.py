@@ -4,9 +4,9 @@ from minio import Minio
 from minio.error import S3Error
 
 # Configuration
-MINIO_ENDPOINT = "s3.sos.com"  # Change to your MinIO server endpoint
-ACCESS_KEY = "sos_minio_user"          # Replace with your MinIO access key
-SECRET_KEY = "vyF04hwL7PMazOVdW3BpY"          # Replace with your MinIO secret key
+MINIO_ENDPOINT = "min.local.com"  # Change to your MinIO server endpoint
+ACCESS_KEY = "minio_user"          # Replace with your MinIO access key
+SECRET_KEY = "minio_password"          # Replace with your MinIO secret key
 BUCKET_NAME = "py-sync-test"        # Replace with your MinIO bucket name
 NUM_FILES = 100                    # Number of fake files to generate
 

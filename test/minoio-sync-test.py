@@ -6,8 +6,8 @@ from minio.error import S3Error
 # Configuration
 MINIO_ENDPOINT_1 = "127.0.0.1:9000"  # Change to your first MinIO server endpoint
 MINIO_ENDPOINT_2 = "127.0.0.2:9000"  # Change to your second MinIO server endpoint
-ACCESS_KEY = "user"                  # Replace with your MinIO access key
-SECRET_KEY = "123"                   # Replace with your MinIO secret key
+ACCESS_KEY = "minio_user"                  # Replace with your MinIO access key
+SECRET_KEY = "minio_password"                   # Replace with your MinIO secret key
 BUCKET_NAME = "py-test"              # Replace with your MinIO bucket name
 NUM_FILES = 1000                     # Number of fake files to generate
 
